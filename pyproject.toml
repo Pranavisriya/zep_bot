@@ -1,0 +1,16 @@
+[project]
+name = "zep-bot"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "graphviz>=0.21",
+    "ipykernel>=7.1.0",
+    "openai>=2.9.0",
+    "python-dotenv>=1.2.1",
+    "pyvis>=0.3.2",
+    "streamlit>=1.52.1",
+    "streamlit-agraph>=0.0.45",
+    "zep-cloud>=3.13.0",
+]
